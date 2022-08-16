@@ -1,0 +1,13 @@
+.cuerpo {
+    background-color: blue;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+}
+.principal {
+    width: 75%;
+}
+.barlat {
+    width: 25%;
+}
