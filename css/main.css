@@ -1,4 +1,7 @@
+@import 'https://fonts.googleapis.com/css?family=Lato';
+
 .cuerpo {
+    font-family: Lato, Arial, Helvetica, sans-serif;
     background-color: blue;
     color: white;
     display: flex;
@@ -7,7 +10,17 @@
 }
 .principal {
     width: 75%;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 .barlat {
     width: 25%;
+}
+@media screen and (min-width: 700px) {
+    .principal {
+        margin: 0;
+        display: inline-block;
+        vertical-align: top;
+        width: 33%;
+    }
 }
